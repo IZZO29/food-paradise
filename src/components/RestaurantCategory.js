@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const RestaurantCategory = ({data}) => {
 
-    const [showItems, setShowItems] = useState(false);
+    const [showItems, setShowItems] = useState(true);
 
     const handleClick =()=>{
         setShowItems(!showItems);

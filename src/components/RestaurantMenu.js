@@ -37,10 +37,7 @@ const RestaurantMenu = () => {
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
       {/* categories accordions */}
-      {categories.map((category)=>
-        <RestaurantCategory 
-        key={category?.card?.card?.title} 
-        data={category?.card?.card} />)}
+      {categories.map((category)=> <RestaurantCategory key={category?.card?.card?.title} data={category?.card?.card} />)}
       
     <div className="bg-[rgb(241,241,246)] w-6/12 mx-auto my-4 p-4">
       <div className=" flex justify-start items-center">
